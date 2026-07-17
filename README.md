@@ -22,6 +22,10 @@ You'll also need these 3 files from the original assignment, placed in the same 
 pip install pandas matplotlib openpyxl
 python jar_sales_analysis.py
 ```
+or
+```bash
+pip install -r requirements.txt
+```
 This prints the results to the terminal and writes everything to an `outputs/` folder (tables as `.csv`, charts as `.png`).
 
 ### Option 2 — Jupyter Notebook / Google Colab
