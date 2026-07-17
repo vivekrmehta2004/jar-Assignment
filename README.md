@@ -48,5 +48,4 @@ to wherever your files actually are (`/content` in Colab, or `"."` if they're in
 ## Questions answered
 
 - **Q1** — Sales analysis (category profitability, target achievement, regional performance) — code-driven, see the script + report.
-- **Q2** — App exploration (5 things that work, 5 things to improve) — written in the report, based on hands-on use of the Jar app.
-- **Q3** — Product strategy (new business ideas for Jar) — written in the report.
+
