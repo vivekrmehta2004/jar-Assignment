@@ -1,0 +1,58 @@
+# ============================================
+# Jar Assignment — sensitive data, never commit
+# ============================================
+List_of_Orders.xlsx
+Order_Details.xlsx
+Sales_target.xlsx
+*.xlsx
+*.xls
+*.csv
+
+# Any local copies/backups of the raw data
+data/
+raw_data/
+*_data/
+
+# Generated outputs derived from the raw data
+# (CSVs/PNGs in here are built from the private data — safer to exclude too)
+outputs/
+output/
+
+# ============================================
+# Jupyter Notebook
+# ============================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# ============================================
+# Editor / OS junk
+# ============================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Optional: exclude the generated report too
+# (uncomment if you don't want the Word report in git either)
+# ============================================
+# *.docx
+# *.pdf
